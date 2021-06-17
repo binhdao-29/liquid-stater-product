@@ -33,3 +33,27 @@ a {
     text-decoration: underline;
   }
 }
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+}
+
+@font-face {
+  font-family: 'Lora', serif;
+  src: url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+}
+
+@font-face {
+  font-family: 'Libre Baskerville', serif;
+  src: url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+}
+
+:root {
+  --text-font-family: "Century Gothic", sans-serif;
+  --heading-font-family: Futura, sans-serif;
+  --heading-font: 'Lora', serif;
+  --text-font: 'Montserrat', sans-serif;
+
+  --home-heading-font: 'Libre Baskerville', serif;
+}

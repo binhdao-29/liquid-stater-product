@@ -1,3 +1,12 @@
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
+//-------------REUSEABLE-------------------------
+.sc-text {
+  font-family: var(--text-font);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sc-heading {
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
+
